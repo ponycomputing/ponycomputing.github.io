@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.fontWeight {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    /*border: 1px solid #333;*/
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.all_title {
+    width: 57%;
+    height: 15px;
+    /*background: #03445F;*/
+    margin: 5px 0 15px -30px;
+    border-radius: 8px;
+}
+
+.title_left {
+    background: #03445f;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.title_left img {
+    vertical-align: middle;
+}
+
+hr {
+    background-color: #03445F;
+    border: none;
+}
+
+.intention_content {
+    clear: both;
+}
+
+.inp {
+    border: none;
+    outline: hidden;
+    height: 30px;
+}
+
+.btn {
+    background: #0071ce;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    height: 30px;
+    line-height: 24px;
+}
+
+#ul_work li {
+    list-style: none;
+}
+
+.lable {
+    display: inline-block;
+}
+
+/*Image*/
+.msgright {
+    /*border: 1px solid #666;*/
+    margin: 10px;
+}
+
+/*Working Expirences*/
+.ul_work li span {
+    display: inline-block;
+}
+
+/*project expirences*/
+.li_exptitle {
+    font-weight: bold;
+}
+
+/*Add Working Expriences*/
+.shade {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    height: 96%;
+    width: 90%;
+    background-color: rgba(51, 51, 51, 0.9);
+}
+
+.shade_container {
+    background: #FFFFFF;
+    margin: 10% auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.shade_content {}
+
+@media screen and (min-width: 100px) and (max-width: 640px) {
+    .title_left {
+        width: 100px;
+        border-radius: 5px;
+        line-height: 25px;
+        font-size: 1.4rem;
+        padding: 3px;
+    }
+
+    .title_left img {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 960px) {
+    .title_left {
+        width: 90px;
+        border-radius: 5px;
+        line-height: 25px;
+        font-size: 1.4rem;
+        padding: 3px;
+    }
+
+    .title_left img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .hr1 {
+        margin-top: 15px;
+        height: 2px;
+        width: 78%;
+    }
+
+    .hr2 {
+        margin-top: 15px;
+        height: 2px;
+        width: 85%;
+    }
+
+    .btn {
+        margin-left: 30px;
+    }
+
+    .inp {
+        width: 150px;
+    }
+
+    /* Career Objective*/
+    .intention_content {
+        font-size: 1.4rem;
+        line-height: 40px;
+    }
+
+    .lable {
+        margin-left: 30px;
+        width: 75px;
+        font-size: 1.4rem;
+    }
+
+    /*Image*/
+    .msgright {
+        /*width:200px;
+		height: 200px;*/
+        margin: 10px;
+    }
+
+    /*Working Expriences*/
+    .ul_work {
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+
+    .li_companyName {
+        width: 220px;
+    }
+
+    .li_onTime {
+        width: 150px;
+    }
+
+    .li_careerName {
+        width: 110px;
+    }
+
+    .li_duty {
+        width: 120px;
+    }
+
+    .li_del img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*Working Expriences end*/
+    /*Project Expriences start*/
+    .ul_experience {
+        margin-left: 30px;
+    }
+
+    .ul_experience li span {
+        display: inline-block;
+    }
+
+    .li_expname {
+        width: 195px;
+    }
+
+    .li_exppost {
+        width: 125px;
+    }
+
+    .li_exptime {
+        width: 120px;
+    }
+
+    .description {
+        line-height: 30px;
+        width: 95%;
+    }
+
+    .edit {
+        width: 22px;
+        height: 22px;
+    }
+
+    /*Add Working Expriences start*/
+    .shade_container {
+        width: 80%;
+        height: 470px;
+        font-size: 1.4rem;
+        line-height: 50px;
+        margin-top: 170px;
+    }
+
+    .shade_content {
+        margin-top: 80px;
+    }
+
+    .shade_content label {
+        width: 80px;
+        display: inline-block;
+    }
+
+    .shade_inp {
+        width: 320px;
+        height: 35px;
+    }
+
+    .shade_text {
+        width: 320px;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+
+    .shade_btn {
+        margin-top: 40px;
+    }
+
+    .shade_btn .btn {
+        width: 80px;
+        height: 35px;
+    }
+
+    .cancel {
+        background: #666;
+    }
+
+    /*Add Working Expriences end*/
+}
+
+@media only screen and (min-width: 960px) {
+
+    /*@media screen and (min-width: 960px) and (max-width: 1200px) {*/
+    .container {
+        width: 850px;
+    }
+
+    .msgleft {
+        width: 600px;
+    }
+
+    .title_left {
+        width: 100px;
+        border-radius: 5px;
+        line-height: 25px;
+        font-size: 1.6rem;
+        padding: 3px;
+    }
+
+    .title_left img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hr1 {
+        margin-top: 15px;
+        height: 2px;
+        width: 480px;
+    }
+
+    .hr2 {
+        margin-top: 15px;
+        height: 2px;
+        width: 720px;
+    }
+
+    .btn {
+        margin-left: 30px;
+    }
+
+    /* Career Objective*/
+    .intention_content {
+        font-size: 1.6rem;
+        line-height: 40px;
+    }
+
+    .lable {
+        margin-left: 30px;
+        width: 80px;
+    }
+
+    /*Image*/
+    .msgright {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    /*Working Expriences*/
+    .ul_work {
+        margin-left: 30px;
+    }
+
+    .li_companyName {
+        width: 270px;
+    }
+
+    .li_onTime {
+        width: 200px;
+    }
+
+    .li_careerName {
+        width: 130px;
+    }
+
+    .li_duty {
+        width: 130px;
+    }
+
+    .li_del img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*Working Expriences end*/
+    /*Project Expriences start*/
+    .ul_experience {
+        margin-left: 30px;
+    }
+
+    .ul_experience li span {
+        display: inline-block;
+    }
+
+    .li_expname {
+        width: 270px;
+    }
+
+    .li_exppost {
+        width: 140px;
+    }
+
+    .li_exptime {
+        width: 140px;
+    }
+
+    .description {
+        line-height: 30px;
+        width: 790px;
+    }
+
+    .edit {
+        width: 22px;
+        height: 22px;
+    }
+
+    /*Add Working Expriences start*/
+    .shade_container {
+        width: 65%;
+        height: 80%;
+        font-size: 1.6rem;
+        line-height: 50px;
+    }
+
+    .shade_content {
+        margin-top: 80px;
+    }
+
+    .shade_content label {
+        width: 80px;
+        display: inline-block;
+    }
+
+    .shade_inp {
+        width: 320px;
+        height: 35px;
+    }
+
+    .shade_text {
+        width: 320px;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+
+    .shade_btn {
+        margin-top: 40px;
+    }
+
+    .shade_btn .btn {
+        width: 80px;
+        height: 35px;
+    }
+
+    .cancel {
+        background: #666;
+    }
+
+    /*Add Working Expriences end*/
+    /*.tip{
+		width: 260px;
+		height: 200px;
+		background: #FFFFFF;
+		border: 2px solid #03445F;
+		position: absolute;
+		top: 200px;
+		left: 280px;
+	}*/
+}
